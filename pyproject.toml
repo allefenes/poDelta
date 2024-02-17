@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "deltagui"
+version = "0.1.0"
+description = ""
+authors = ["Enes Güngör <66514755+allefenes@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^1.26.4"
+matplotlib = "^3.8.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
